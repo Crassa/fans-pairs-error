@@ -1,0 +1,655 @@
+fanc pairs: error: argument -c/--filter-contaminant: expected one argument
+fanc pairs: error: unrecognized arguments: -n ERR12268262 
+# so no need to give the string for outputfile. give directly the output file in the last or after input. -n is only for fance-auto.
+ValueError: First SAM file is not sorted by read name (samtools sort -n)! Read names:b'ERR12268262.380883666' and b'ERR12268262.256999359'
+# need to sort bam file by -n.
+AttributeError: module 'collections' has no attribute 'MutableMapping'
+solution for this: module load python-3.9.5-gcc-5.4.0-q6pq4td and source ~/mypython_3.9.5/bin/activate
+
+finall error 2024-01-01 02:14:34,063 INFO All done.
+/home/pks14/mypython_3.9.5/lib/python3.9/site-packages/tables/file.py:113: UnclosedFileWarning: Closing remaining open file: HKU718
+  warnings.warn(UnclosedFileWarning(msg))
+
+2023-12-31 10:01:12,570 INFO FAN-C version: 0.9.27
+2023-12-31 10:01:12,578 INFO Getting genome regions (fragments or bins)
+2023-12-31 10:01:12,580 INFO Getting regions
+2023-12-31 10:04:31,513 INFO Three arguments detected, assuming SAM/BAM input.
+2023-12-31 10:04:31,553 INFO Using filters appropriate for BWA.
+Buffers   0% (0 of 5151) |               | Elapsed Time: 0:00:00 ETA:  --:--:--
+Buffers   0% (1 of 5151) |               | Elapsed Time: 0:00:00 ETA:  00:00:00
+Buffers   1% (52 of 5151) |              | Elapsed Time: 0:00:01 ETA:   0:01:42
+Buffers   2% (104 of 5151) |             | Elapsed Time: 0:00:02 ETA:   0:01:58
+Buffers   3% (155 of 5151) |             | Elapsed Time: 0:00:03 ETA:   0:01:40
+Buffers   4% (207 of 5151) |             | Elapsed Time: 0:00:03 ETA:   0:01:27
+Buffers   5% (258 of 5151) |             | Elapsed Time: 0:00:04 ETA:   0:01:19
+Buffers   6% (310 of 5151) |             | Elapsed Time: 0:00:05 ETA:   0:01:02
+Buffers   7% (361 of 5151) |             | Elapsed Time: 0:00:05 ETA:   0:00:59
+Buffers   8% (413 of 5151) |#            | Elapsed Time: 0:00:06 ETA:   0:00:58
+Buffers   9% (464 of 5151) |#            | Elapsed Time: 0:00:06 ETA:   0:00:56
+Buffers  10% (516 of 5151) |#            | Elapsed Time: 0:00:07 ETA:   0:00:53
+Buffers  11% (567 of 5151) |#            | Elapsed Time: 0:00:08 ETA:   0:00:58
+Buffers  12% (619 of 5151) |#            | Elapsed Time: 0:00:09 ETA:   0:01:02
+Buffers  13% (670 of 5151) |#            | Elapsed Time: 0:00:09 ETA:   0:01:04
+Buffers  14% (722 of 5151) |#            | Elapsed Time: 0:00:10 ETA:   0:00:58
+Buffers  15% (773 of 5151) |#            | Elapsed Time: 0:00:11 ETA:   0:00:57
+Buffers  16% (825 of 5151) |##           | Elapsed Time: 0:00:11 ETA:   0:00:56
+Buffers  17% (876 of 5151) |##           | Elapsed Time: 0:00:12 ETA:   0:00:54
+Buffers  18% (928 of 5151) |##           | Elapsed Time: 0:00:12 ETA:   0:00:53
+Buffers  19% (979 of 5151) |##           | Elapsed Time: 0:00:13 ETA:   0:00:53
+Buffers  20% (1031 of 5151) |##          | Elapsed Time: 0:00:14 ETA:   0:00:51
+Buffers  21% (1082 of 5151) |##          | Elapsed Time: 0:00:15 ETA:   0:00:58
+Buffers  22% (1134 of 5151) |##          | Elapsed Time: 0:00:15 ETA:   0:00:55
+Buffers  23% (1185 of 5151) |##          | Elapsed Time: 0:00:16 ETA:   0:00:54
+Buffers  24% (1237 of 5151) |##          | Elapsed Time: 0:00:17 ETA:   0:00:52
+Buffers  25% (1288 of 5151) |###         | Elapsed Time: 0:00:17 ETA:   0:00:46
+Buffers  26% (1340 of 5151) |###         | Elapsed Time: 0:00:18 ETA:   0:00:47
+Buffers  27% (1391 of 5151) |###         | Elapsed Time: 0:00:19 ETA:   0:00:47
+Buffers  28% (1443 of 5151) |###         | Elapsed Time: 0:00:19 ETA:   0:00:48
+Buffers  29% (1494 of 5151) |###         | Elapsed Time: 0:00:20 ETA:   0:00:46
+Buffers  30% (1546 of 5151) |###         | Elapsed Time: 0:00:21 ETA:   0:00:51
+Buffers  31% (1597 of 5151) |###         | Elapsed Time: 0:00:21 ETA:   0:00:50
+Buffers  32% (1649 of 5151) |###         | Elapsed Time: 0:00:22 ETA:   0:00:50
+Buffers  33% (1700 of 5151) |###         | Elapsed Time: 0:00:23 ETA:   0:00:44
+Buffers  34% (1752 of 5151) |####        | Elapsed Time: 0:00:23 ETA:   0:00:44
+Buffers  35% (1803 of 5151) |####        | Elapsed Time: 0:00:24 ETA:   0:00:43
+Buffers  36% (1855 of 5151) |####        | Elapsed Time: 0:00:25 ETA:   0:00:42
+Buffers  37% (1906 of 5151) |####        | Elapsed Time: 0:00:25 ETA:   0:00:40
+Buffers  38% (1958 of 5151) |####        | Elapsed Time: 0:00:26 ETA:   0:00:39
+Buffers  39% (2009 of 5151) |####        | Elapsed Time: 0:00:27 ETA:   0:00:43
+Buffers  40% (2061 of 5151) |####        | Elapsed Time: 0:00:28 ETA:   0:00:44
+Buffers  41% (2112 of 5151) |####        | Elapsed Time: 0:00:28 ETA:   0:00:44
+Buffers  42% (2164 of 5151) |#####       | Elapsed Time: 0:00:29 ETA:   0:00:39
+Buffers  43% (2215 of 5151) |#####       | Elapsed Time: 0:00:30 ETA:   0:00:38
+Buffers  44% (2267 of 5151) |#####       | Elapsed Time: 0:00:30 ETA:   0:00:36
+Buffers  45% (2318 of 5151) |#####       | Elapsed Time: 0:00:31 ETA:   0:00:34
+Buffers  46% (2370 of 5151) |#####       | Elapsed Time: 0:00:31 ETA:   0:00:33
+Buffers  47% (2421 of 5151) |#####       | Elapsed Time: 0:00:32 ETA:   0:00:32
+Buffers  48% (2473 of 5151) |#####       | Elapsed Time: 0:00:33 ETA:   0:00:32
+Buffers  49% (2524 of 5151) |#####       | Elapsed Time: 0:00:33 ETA:   0:00:32
+Buffers  50% (2576 of 5151) |######      | Elapsed Time: 0:00:34 ETA:   0:00:37
+Buffers  51% (2628 of 5151) |######      | Elapsed Time: 0:00:35 ETA:   0:00:36
+Buffers  52% (2679 of 5151) |######      | Elapsed Time: 0:00:36 ETA:   0:00:35
+Buffers  53% (2731 of 5151) |######      | Elapsed Time: 0:00:36 ETA:   0:00:33
+Buffers  54% (2782 of 5151) |######      | Elapsed Time: 0:00:37 ETA:   0:00:29
+Buffers  55% (2834 of 5151) |######      | Elapsed Time: 0:00:37 ETA:   0:00:28
+Buffers  56% (2885 of 5151) |######      | Elapsed Time: 0:00:38 ETA:   0:00:27
+Buffers  57% (2937 of 5151) |######      | Elapsed Time: 0:00:39 ETA:   0:00:26
+Buffers  58% (2988 of 5151) |######      | Elapsed Time: 0:00:40 ETA:   0:00:30
+Buffers  59% (3040 of 5151) |#######     | Elapsed Time: 0:00:40 ETA:   0:00:29
+Buffers  60% (3091 of 5151) |#######     | Elapsed Time: 0:00:41 ETA:   0:00:29
+Buffers  61% (3143 of 5151) |#######     | Elapsed Time: 0:00:42 ETA:   0:00:28
+Buffers  62% (3194 of 5151) |#######     | Elapsed Time: 0:00:42 ETA:   0:00:25
+Buffers  63% (3246 of 5151) |#######     | Elapsed Time: 0:00:43 ETA:   0:00:24
+Buffers  64% (3297 of 5151) |#######     | Elapsed Time: 0:00:44 ETA:   0:00:23
+Buffers  65% (3349 of 5151) |#######     | Elapsed Time: 0:00:44 ETA:   0:00:22
+Buffers  66% (3400 of 5151) |#######     | Elapsed Time: 0:00:45 ETA:   0:00:21
+Buffers  67% (3452 of 5151) |########    | Elapsed Time: 0:00:46 ETA:   0:00:23
+Buffers  68% (3503 of 5151) |########    | Elapsed Time: 0:00:46 ETA:   0:00:22
+Buffers  69% (3555 of 5151) |########    | Elapsed Time: 0:00:47 ETA:   0:00:21
+Buffers  70% (3606 of 5151) |########    | Elapsed Time: 0:00:47 ETA:   0:00:20
+Buffers  71% (3658 of 5151) |########    | Elapsed Time: 0:00:48 ETA:   0:00:18
+Buffers  72% (3709 of 5151) |########    | Elapsed Time: 0:00:49 ETA:   0:00:18
+Buffers  73% (3761 of 5151) |########    | Elapsed Time: 0:00:49 ETA:   0:00:17
+Buffers  74% (3812 of 5151) |########    | Elapsed Time: 0:00:50 ETA:   0:00:16
+Buffers  75% (3864 of 5151) |#########   | Elapsed Time: 0:00:51 ETA:   0:00:15
+Buffers  76% (3915 of 5151) |#########   | Elapsed Time: 0:00:51 ETA:   0:00:14
+Buffers  77% (3967 of 5151) |#########   | Elapsed Time: 0:00:52 ETA:   0:00:14
+Buffers  78% (4018 of 5151) |#########   | Elapsed Time: 0:00:53 ETA:   0:00:16
+Buffers  79% (4070 of 5151) |#########   | Elapsed Time: 0:00:54 ETA:   0:00:15
+Buffers  80% (4121 of 5151) |#########   | Elapsed Time: 0:00:54 ETA:   0:00:14
+Buffers  81% (4173 of 5151) |#########   | Elapsed Time: 0:00:55 ETA:   0:00:13
+Buffers  82% (4224 of 5151) |#########   | Elapsed Time: 0:00:55 ETA:   0:00:10
+Buffers  83% (4276 of 5151) |#########   | Elapsed Time: 0:00:56 ETA:   0:00:10
+Buffers  84% (4327 of 5151) |##########  | Elapsed Time: 0:00:56 ETA:   0:00:09
+Buffers  85% (4379 of 5151) |##########  | Elapsed Time: 0:00:57 ETA:   0:00:08
+Buffers  86% (4430 of 5151) |##########  | Elapsed Time: 0:00:58 ETA:   0:00:08
+Buffers  87% (4482 of 5151) |##########  | Elapsed Time: 0:00:59 ETA:   0:00:09
+Buffers  88% (4533 of 5151) |##########  | Elapsed Time: 0:00:59 ETA:   0:00:08
+Buffers  89% (4585 of 5151) |##########  | Elapsed Time: 0:01:00 ETA:   0:00:08
+Buffers  90% (4636 of 5151) |##########  | Elapsed Time: 0:01:00 ETA:   0:00:06
+Buffers  91% (4688 of 5151) |##########  | Elapsed Time: 0:01:01 ETA:   0:00:05
+Buffers  92% (4739 of 5151) |########### | Elapsed Time: 0:01:02 ETA:   0:00:04
+Buffers  93% (4791 of 5151) |########### | Elapsed Time: 0:01:02 ETA:   0:00:04
+Buffers  94% (4842 of 5151) |########### | Elapsed Time: 0:01:03 ETA:   0:00:03
+Buffers  95% (4894 of 5151) |########### | Elapsed Time: 0:01:04 ETA:   0:00:03
+Buffers  96% (4945 of 5151) |########### | Elapsed Time: 0:01:05 ETA:   0:00:03
+Buffers  97% (4997 of 5151) |########### | Elapsed Time: 0:01:06 ETA:   0:00:02
+Buffers  98% (5048 of 5151) |########### | Elapsed Time: 0:01:06 ETA:   0:00:01
+Buffers  99% (5100 of 5151) |########### | Elapsed Time: 0:01:07 ETA:   0:00:00
+Buffers 100% (5151 of 5151) |############| Elapsed Time: 0:01:08 Time:  0:01:08
+2023-12-31 15:59:31,789 INFO Updating region mappability
+Mappability   0% (0 of 437782080) |      | Elapsed Time: 0:00:00 ETA:  --:--:--
+Mappability   0% (1 of 437782080) |      | Elapsed Time: 0:00:00 ETA:  00:00:00
+Mappability   1% (4377821 of 437782080) || Elapsed Time: 0:00:14 ETA:   0:23:41
+Mappability   2% (8755642 of 437782080) || Elapsed Time: 0:00:27 ETA:   0:21:16
+Mappability   3% (13133463 of 437782080) || Elapsed Time: 0:00:39 ETA:   0:18:56
+Mappability   4% (17511284 of 437782080) || Elapsed Time: 0:00:52 ETA:   0:22:00
+Mappability   5% (21889105 of 437782080) || Elapsed Time: 0:01:06 ETA:   0:21:54
+Mappability   6% (26266925 of 437782080) || Elapsed Time: 0:01:20 ETA:   0:21:58
+Mappability   7% (30644746 of 437782080) || Elapsed Time: 0:01:35 ETA:   0:23:12
+Mappability   8% (35022567 of 437782080) || Elapsed Time: 0:01:46 ETA:   0:16:35
+Mappability   9% (39400388 of 437782080) || Elapsed Time: 0:01:58 ETA:   0:18:17
+Mappability  10% (43778208 of 437782080) || Elapsed Time: 0:02:12 ETA:   0:20:38
+Mappability  11% (48156029 of 437782080) || Elapsed Time: 0:02:26 ETA:   0:20:33
+Mappability  12% (52533850 of 437782080) || Elapsed Time: 0:02:37 ETA:   0:16:11
+Mappability  13% (56911671 of 437782080) || Elapsed Time: 0:02:51 ETA:   0:20:08
+Mappability  14% (61289492 of 437782080) || Elapsed Time: 0:03:04 ETA:   0:19:42
+Mappability  15% (65667312 of 437782080) || Elapsed Time: 0:03:19 ETA:   0:20:03
+Mappability  16% (70045133 of 437782080) || Elapsed Time: 0:03:30 ETA:   0:16:24
+Mappability  17% (74422954 of 437782080) || Elapsed Time: 0:03:44 ETA:   0:19:04
+Mappability  18% (78800775 of 437782080) || Elapsed Time: 0:03:57 ETA:   0:17:56
+Mappability  19% (83178596 of 437782080) || Elapsed Time: 0:04:10 ETA:   0:17:58
+Mappability  20% (87556416 of 437782080) || Elapsed Time: 0:04:24 ETA:   0:17:51
+Mappability  21% (91934237 of 437782080) || Elapsed Time: 0:04:37 ETA:   0:17:40
+Mappability  22% (96312058 of 437782080) || Elapsed Time: 0:04:50 ETA:   0:16:52
+Mappability  23% (100689879 of 437782080) || Elapsed Time: 0:05:03 ETA:   0:16:55
+Mappability  24% (105067700 of 437782080) || Elapsed Time: 0:05:14 ETA:   0:13:58
+Mappability  25% (109445520 of 437782080) || Elapsed Time: 0:05:29 ETA:   0:18:19
+Mappability  26% (113823341 of 437782080) || Elapsed Time: 0:05:44 ETA:   0:18:49
+Mappability  27% (118201162 of 437782080) || Elapsed Time: 0:05:59 ETA:   0:17:36
+Mappability  28% (122578983 of 437782080) || Elapsed Time: 0:06:13 ETA:   0:17:19
+Mappability  29% (126956804 of 437782080) || Elapsed Time: 0:06:27 ETA:   0:16:38
+Mappability  30% (131334624 of 437782080) || Elapsed Time: 0:06:39 ETA:   0:13:02
+Mappability  31% (135712445 of 437782080) || Elapsed Time: 0:06:52 ETA:   0:15:13
+Mappability  32% (140090266 of 437782080) || Elapsed Time: 0:07:05 ETA:   0:14:56
+Mappability  33% (144468087 of 437782080) || Elapsed Time: 0:07:19 ETA:   0:15:43
+Mappability  34% (148845908 of 437782080) || Elapsed Time: 0:07:32 ETA:   0:14:15
+Mappability  35% (153223729 of 437782080) || Elapsed Time: 0:07:43 ETA:   0:11:47
+Mappability  36% (157601549 of 437782080) || Elapsed Time: 0:07:56 ETA:   0:14:03
+Mappability  37% (161979370 of 437782080) || Elapsed Time: 0:08:09 ETA:   0:13:12
+Mappability  38% (166357191 of 437782080) || Elapsed Time: 0:08:22 ETA:   0:13:18
+Mappability  39% (170735012 of 437782080) || Elapsed Time: 0:08:32 ETA:   0:10:59
+Mappability  40% (175112833 of 437782080) || Elapsed Time: 0:08:46 ETA:   0:13:08
+Mappability  41% (179490653 of 437782080) || Elapsed Time: 0:08:59 ETA:   0:12:46
+Mappability  42% (183868474 of 437782080) || Elapsed Time: 0:09:12 ETA:   0:13:20
+Mappability  43% (188246295 of 437782080) || Elapsed Time: 0:09:25 ETA:   0:12:09
+Mappability  44% (192624116 of 437782080) || Elapsed Time: 0:09:38 ETA:   0:12:07
+Mappability  45% (197001937 of 437782080) || Elapsed Time: 0:09:51 ETA:   0:12:14
+Mappability  46% (201379757 of 437782080) || Elapsed Time: 0:10:04 ETA:   0:11:33
+Mappability  47% (205757578 of 437782080) || Elapsed Time: 0:10:16 ETA:   0:10:21
+Mappability  48% (210135399 of 437782080) || Elapsed Time: 0:10:29 ETA:   0:11:30
+Mappability  49% (214513220 of 437782080) || Elapsed Time: 0:10:40 ETA:   0:09:25
+Mappability  50% (218891041 of 437782080) || Elapsed Time: 0:10:53 ETA:   0:10:25
+Mappability  51% (223268861 of 437782080) || Elapsed Time: 0:11:05 ETA:   0:10:10
+Mappability  52% (227646682 of 437782080) || Elapsed Time: 0:11:18 ETA:   0:10:18
+Mappability  53% (232024503 of 437782080) || Elapsed Time: 0:11:33 ETA:   0:11:21
+Mappability  54% (236402324 of 437782080) || Elapsed Time: 0:11:47 ETA:   0:10:32
+Mappability  55% (240780145 of 437782080) || Elapsed Time: 0:12:00 ETA:   0:09:48
+Mappability  56% (245157965 of 437782080) || Elapsed Time: 0:12:11 ETA:   0:08:35
+Mappability  57% (249535786 of 437782080) || Elapsed Time: 0:12:23 ETA:   0:08:23
+Mappability  58% (253913607 of 437782080) || Elapsed Time: 0:12:35 ETA:   0:08:17
+Mappability  59% (258291428 of 437782080) || Elapsed Time: 0:12:45 ETA:   0:07:09
+Mappability  60% (262669249 of 437782080) || Elapsed Time: 0:12:57 ETA:   0:08:01
+Mappability  61% (267047069 of 437782080) || Elapsed Time: 0:13:08 ETA:   0:07:02
+Mappability  62% (271424890 of 437782080) || Elapsed Time: 0:13:20 ETA:   0:07:33
+Mappability  63% (275802711 of 437782080) || Elapsed Time: 0:13:32 ETA:   0:07:36
+Mappability  64% (280180532 of 437782080) || Elapsed Time: 0:13:44 ETA:   0:07:05
+Mappability  65% (284558353 of 437782080) || Elapsed Time: 0:13:56 ETA:   0:06:51
+Mappability  66% (288936173 of 437782080) || Elapsed Time: 0:14:08 ETA:   0:06:39
+Mappability  67% (293313994 of 437782080) || Elapsed Time: 0:14:19 ETA:   0:06:24
+Mappability  68% (297691815 of 437782080) || Elapsed Time: 0:14:30 ETA:   0:05:45
+Mappability  69% (302069636 of 437782080) || Elapsed Time: 0:14:42 ETA:   0:06:02
+Mappability  70% (306447457 of 437782080) || Elapsed Time: 0:14:53 ETA:   0:05:42
+Mappability  71% (310825277 of 437782080) || Elapsed Time: 0:15:05 ETA:   0:05:32
+Mappability  72% (315203098 of 437782080) || Elapsed Time: 0:15:16 ETA:   0:05:24
+Mappability  73% (319580919 of 437782080) || Elapsed Time: 0:15:28 ETA:   0:05:19
+Mappability  74% (323958740 of 437782080) || Elapsed Time: 0:15:40 ETA:   0:04:55
+Mappability  75% (328336561 of 437782080) || Elapsed Time: 0:15:51 ETA:   0:04:53
+Mappability  76% (332714381 of 437782080) || Elapsed Time: 0:16:02 ETA:   0:04:16
+Mappability  77% (337092202 of 437782080) || Elapsed Time: 0:16:14 ETA:   0:04:30
+Mappability  78% (341470023 of 437782080) || Elapsed Time: 0:16:26 ETA:   0:04:18
+Mappability  79% (345847844 of 437782080) || Elapsed Time: 0:16:37 ETA:   0:04:07
+Mappability  80% (350225665 of 437782080) || Elapsed Time: 0:16:50 ETA:   0:04:05
+Mappability  81% (354603485 of 437782080) || Elapsed Time: 0:17:02 ETA:   0:03:46
+Mappability  82% (358981306 of 437782080) || Elapsed Time: 0:17:14 ETA:   0:03:51
+Mappability  83% (363359127 of 437782080) || Elapsed Time: 0:17:25 ETA:   0:03:07
+Mappability  84% (367736948 of 437782080) || Elapsed Time: 0:17:37 ETA:   0:03:10
+Mappability  85% (372114769 of 437782080) || Elapsed Time: 0:17:49 ETA:   0:02:51
+Mappability  86% (376492589 of 437782080) || Elapsed Time: 0:18:01 ETA:   0:02:52
+Mappability  87% (380870410 of 437782080) || Elapsed Time: 0:18:12 ETA:   0:02:28
+Mappability  88% (385248231 of 437782080) || Elapsed Time: 0:18:25 ETA:   0:02:28
+Mappability  89% (389626052 of 437782080) || Elapsed Time: 0:18:37 ETA:   0:02:10
+Mappability  90% (394003873 of 437782080) || Elapsed Time: 0:18:49 ETA:   0:02:00
+Mappability  91% (398381693 of 437782080) || Elapsed Time: 0:19:01 ETA:   0:01:45
+Mappability  92% (402759514 of 437782080) || Elapsed Time: 0:19:12 ETA:   0:01:32
+Mappability  93% (407137335 of 437782080) || Elapsed Time: 0:19:24 ETA:   0:01:20
+Mappability  94% (411515156 of 437782080) || Elapsed Time: 0:19:35 ETA:   0:01:09
+Mappability  95% (415892977 of 437782080) || Elapsed Time: 0:19:47 ETA:   0:00:58
+Mappability  96% (420270797 of 437782080) || Elapsed Time: 0:19:58 ETA:   0:00:46
+Mappability  97% (424648618 of 437782080) || Elapsed Time: 0:20:10 ETA:   0:00:34
+Mappability  98% (429026439 of 437782080) || Elapsed Time: 0:20:21 ETA:   0:00:22
+Mappability  99% (433404260 of 437782080) || Elapsed Time: 0:20:32 ETA:   0:00:11
+Mappability 100% (437782080 of 437782080) || Elapsed Time: 0:20:44 Time:  0:20:44
+2023-12-31 16:24:18,647 INFO Filtering inward- and outward-facing reads using automaticallydetermined thresholds.
+Ligation error   0% (0 of 437782080) |   | Elapsed Time: 0:00:00 ETA:  --:--:--
+Ligation error   0% (1 of 437782080) |   | Elapsed Time: 0:00:00 ETA:  00:00:00
+Ligation error   1% (4377821 of 437782080) || Elapsed Time: 0:01:33 ETA:   2:35:04
+Ligation error   2% (8755642 of 437782080) || Elapsed Time: 0:03:08 ETA:   2:35:04
+Ligation error   3% (13133463 of 437782080) || Elapsed Time: 0:04:45 ETA:   2:36:13
+Ligation error   4% (17511284 of 437782080) || Elapsed Time: 0:06:18 ETA:   2:28:44
+Ligation error   5% (21889105 of 437782080) || Elapsed Time: 0:07:50 ETA:   2:25:55
+Ligation error   6% (26266925 of 437782080) || Elapsed Time: 0:09:15 ETA:   2:12:09
+Ligation error   7% (30644746 of 437782080) || Elapsed Time: 0:10:41 ETA:   2:13:26
+Ligation error   8% (35022567 of 437782080) || Elapsed Time: 0:12:16 ETA:   2:25:32
+Ligation error   9% (39400388 of 437782080) || Elapsed Time: 0:13:41 ETA:   2:09:06
+Ligation error  10% (43778208 of 437782080) || Elapsed Time: 0:15:03 ETA:   2:03:44
+Ligation error  11% (48156029 of 437782080) || Elapsed Time: 0:16:25 ETA:   2:01:14
+Ligation error  12% (52533850 of 437782080) || Elapsed Time: 0:18:05 ETA:   2:27:02
+Ligation error  13% (56911671 of 437782080) || Elapsed Time: 0:19:30 ETA:   2:02:17
+Ligation error  14% (61289492 of 437782080) || Elapsed Time: 0:20:57 ETA:   2:05:43
+Ligation error  15% (65667312 of 437782080) || Elapsed Time: 0:22:23 ETA:   2:01:19
+Ligation error  16% (70045133 of 437782080) || Elapsed Time: 0:23:56 ETA:   2:10:43
+Ligation error  17% (74422954 of 437782080) || Elapsed Time: 0:25:26 ETA:   2:04:06
+Ligation error  18% (78800775 of 437782080) || Elapsed Time: 0:26:55 ETA:   2:02:20
+Ligation error  19% (83178596 of 437782080) || Elapsed Time: 0:28:24 ETA:   1:58:53
+Ligation error  20% (87556416 of 437782080) || Elapsed Time: 0:29:50 ETA:   1:54:38
+Ligation error  21% (91934237 of 437782080) || Elapsed Time: 0:31:18 ETA:   1:55:52
+Ligation error  22% (96312058 of 437782080) || Elapsed Time: 0:32:54 ETA:   2:05:29
+Ligation error  23% (100689879 of 437782080) || Elapsed Time: 0:34:27 ETA:   1:58:55
+Ligation error  24% (105067700 of 437782080) || Elapsed Time: 0:36:10 ETA:   2:10:22
+Ligation error  25% (109445520 of 437782080) || Elapsed Time: 0:37:35 ETA:   1:47:06
+Ligation error  26% (113823341 of 437782080) || Elapsed Time: 0:39:00 ETA:   1:44:01
+Ligation error  27% (118201162 of 437782080) || Elapsed Time: 0:40:23 ETA:   1:41:09
+Ligation error  28% (122578983 of 437782080) || Elapsed Time: 0:41:42 ETA:   1:34:44
+Ligation error  29% (126956804 of 437782080) || Elapsed Time: 0:43:07 ETA:   1:40:41
+Ligation error  30% (131334624 of 437782080) || Elapsed Time: 0:44:49 ETA:   1:59:10
+Ligation error  31% (135712445 of 437782080) || Elapsed Time: 0:46:16 ETA:   1:39:27
+Ligation error  32% (140090266 of 437782080) || Elapsed Time: 0:47:48 ETA:   1:44:50
+Ligation error  33% (144468087 of 437782080) || Elapsed Time: 0:49:19 ETA:   1:41:43
+Ligation error  34% (148845908 of 437782080) || Elapsed Time: 0:50:51 ETA:   1:40:54
+Ligation error  35% (153223729 of 437782080) || Elapsed Time: 0:52:27 ETA:   1:44:05
+Ligation error  36% (157601549 of 437782080) || Elapsed Time: 0:53:54 ETA:   1:32:52
+Ligation error  37% (161979370 of 437782080) || Elapsed Time: 0:55:21 ETA:   1:30:51
+Ligation error  38% (166357191 of 437782080) || Elapsed Time: 0:56:50 ETA:   1:32:36
+Ligation error  39% (170735012 of 437782080) || Elapsed Time: 0:58:24 ETA:   1:35:10
+Ligation error  40% (175112836 of 437782080) || Elapsed Time: 0:59:55 ETA:   1:31:34
+Ligation error  41% (179490653 of 437782080) || Elapsed Time: 1:01:21 ETA:   1:24:11
+Ligation error  42% (183868474 of 437782080) || Elapsed Time: 1:02:49 ETA:   1:25:24
+Ligation error  43% (188246295 of 437782080) || Elapsed Time: 1:04:21 ETA:   1:26:40
+Ligation error  44% (192624116 of 437782080) || Elapsed Time: 1:05:48 ETA:   1:21:38
+Ligation error  45% (197001937 of 437782080) || Elapsed Time: 1:07:20 ETA:   1:24:02
+Ligation error  46% (201379757 of 437782080) || Elapsed Time: 1:08:48 ETA:   1:19:26
+Ligation error  47% (205757578 of 437782080) || Elapsed Time: 1:10:30 ETA:   1:29:49
+Ligation error  48% (210135400 of 437782080) || Elapsed Time: 1:11:55 ETA:   1:13:31
+Ligation error  49% (214513220 of 437782080) || Elapsed Time: 1:13:32 ETA:   1:23:00
+Ligation error  50% (218891041 of 437782080) || Elapsed Time: 1:14:59 ETA:   1:12:08
+Ligation error  51% (223268861 of 437782080) || Elapsed Time: 1:16:27 ETA:   1:12:13
+Ligation error  52% (227646682 of 437782080) || Elapsed Time: 1:17:58 ETA:   1:12:48
+Ligation error  53% (232024503 of 437782080) || Elapsed Time: 1:19:37 ETA:   1:17:27
+Ligation error  54% (236402324 of 437782080) || Elapsed Time: 1:21:14 ETA:   1:14:02
+Ligation error  55% (240780146 of 437782080) || Elapsed Time: 1:22:52 ETA:   1:13:49
+Ligation error  56% (245157965 of 437782080) || Elapsed Time: 1:24:25 ETA:   1:08:07
+Ligation error  57% (249535786 of 437782080) || Elapsed Time: 1:25:56 ETA:   1:05:29
+Ligation error  58% (253913607 of 437782080) || Elapsed Time: 1:27:22 ETA:   1:00:01
+Ligation error  59% (258291428 of 437782080) || Elapsed Time: 1:28:55 ETA:   1:03:25
+Ligation error  60% (262669249 of 437782080) || Elapsed Time: 1:30:18 ETA:   0:55:33
+Ligation error  61% (267047069 of 437782080) || Elapsed Time: 1:31:49 ETA:   0:58:59
+Ligation error  62% (271424890 of 437782080) || Elapsed Time: 1:33:11 ETA:   0:52:00
+Ligation error  63% (275802711 of 437782080) || Elapsed Time: 1:34:37 ETA:   0:53:02
+Ligation error  64% (280180532 of 437782080) || Elapsed Time: 1:36:08 ETA:   0:54:31
+Ligation error  65% (284558353 of 437782080) || Elapsed Time: 1:37:36 ETA:   0:51:06
+Ligation error  66% (288936173 of 437782080) || Elapsed Time: 1:39:03 ETA:   0:49:14
+Ligation error  67% (293313994 of 437782080) || Elapsed Time: 1:40:32 ETA:   0:49:04
+Ligation error  68% (297691815 of 437782080) || Elapsed Time: 1:42:07 ETA:   0:50:55
+Ligation error  69% (302069636 of 437782080) || Elapsed Time: 1:43:39 ETA:   0:47:12
+Ligation error  70% (306447457 of 437782080) || Elapsed Time: 1:45:08 ETA:   0:44:32
+Ligation error  71% (310825277 of 437782080) || Elapsed Time: 1:46:43 ETA:   0:46:07
+Ligation error  72% (315203098 of 437782080) || Elapsed Time: 1:48:18 ETA:   0:44:16
+Ligation error  73% (319580919 of 437782080) || Elapsed Time: 1:49:53 ETA:   0:42:43
+Ligation error  74% (323958740 of 437782080) || Elapsed Time: 1:51:25 ETA:   0:39:53
+Ligation error  75% (328336561 of 437782080) || Elapsed Time: 1:52:52 ETA:   0:36:18
+Ligation error  76% (332714381 of 437782080) || Elapsed Time: 1:54:26 ETA:   0:37:27
+Ligation error  77% (337092202 of 437782080) || Elapsed Time: 1:55:50 ETA:   0:32:28
+Ligation error  78% (341470023 of 437782080) || Elapsed Time: 1:57:21 ETA:   0:33:21
+Ligation error  79% (345847844 of 437782080) || Elapsed Time: 1:58:57 ETA:   0:33:21
+Ligation error  80% (350225665 of 437782080) || Elapsed Time: 2:00:28 ETA:   0:30:26
+Ligation error  81% (354603485 of 437782080) || Elapsed Time: 2:02:05 ETA:   0:30:43
+Ligation error  82% (358981306 of 437782080) || Elapsed Time: 2:03:37 ETA:   0:27:31
+Ligation error  83% (363359127 of 437782080) || Elapsed Time: 2:05:13 ETA:   0:27:12
+Ligation error  84% (367736948 of 437782080) || Elapsed Time: 2:06:48 ETA:   0:25:25
+Ligation error  85% (372114769 of 437782080) || Elapsed Time: 2:08:23 ETA:   0:23:33
+Ligation error  86% (376492589 of 437782080) || Elapsed Time: 2:09:55 ETA:   0:21:37
+Ligation error  87% (380870410 of 437782080) || Elapsed Time: 2:11:26 ETA:   0:19:34
+Ligation error  88% (385248231 of 437782080) || Elapsed Time: 2:12:56 ETA:   0:18:08
+Ligation error  89% (389626052 of 437782080) || Elapsed Time: 2:14:36 ETA:   0:18:22
+Ligation error  90% (394003873 of 437782080) || Elapsed Time: 2:16:08 ETA:   0:15:17
+Ligation error  91% (398381693 of 437782080) || Elapsed Time: 2:17:39 ETA:   0:13:41
+Ligation error  92% (402759514 of 437782080) || Elapsed Time: 2:19:10 ETA:   0:12:03
+Ligation error  93% (407137335 of 437782080) || Elapsed Time: 2:20:42 ETA:   0:10:47
+Ligation error  94% (411515156 of 437782080) || Elapsed Time: 2:22:19 ETA:   0:09:42
+Ligation error  95% (415892977 of 437782080) || Elapsed Time: 2:23:56 ETA:   0:08:04
+Ligation error  96% (420270797 of 437782080) || Elapsed Time: 2:25:28 ETA:   0:06:05
+Ligation error  97% (424648618 of 437782080) || Elapsed Time: 2:27:01 ETA:   0:04:39
+Ligation error  98% (429026439 of 437782080) || Elapsed Time: 2:28:36 ETA:   0:03:10
+Ligation error  99% (433404260 of 437782080) || Elapsed Time: 2:30:14 ETA:   0:01:37
+Ligation error  99% (437782077 of 437782080) || Elapsed Time: 2:31:49 Time:  2:31:49
+2023-12-31 19:01:28,535 INFO Pairs: 437782080
+2023-12-31 19:01:28,537 INFO Inter-chromosomal: 55491267
+2023-12-31 19:01:28,539 INFO Same fragment: 30444199
+2023-12-31 19:01:28,540 INFO Same: 157808596
+2023-12-31 19:01:28,542 INFO Inward: 85217195
+2023-12-31 19:01:28,543 INFO Outward: 77504049
+2023-12-31 19:37:08,720 INFO Filtering out inward facing read pairs < 58338 bp apart
+Ligation error   0% (0 of 437782080) |   | Elapsed Time: 0:00:00 ETA:  --:--:--
+Ligation error   0% (1 of 437782080) |   | Elapsed Time: 0:00:00 ETA:  00:00:00
+Ligation error   1% (4377821 of 437782080) || Elapsed Time: 0:01:35 ETA:   2:37:30
+Ligation error   2% (8755642 of 437782080) || Elapsed Time: 0:03:01 ETA:   2:21:05
+Ligation error   3% (13133463 of 437782080) || Elapsed Time: 0:04:32 ETA:   2:26:01
+Ligation error   4% (17511284 of 437782080) || Elapsed Time: 0:06:01 ETA:   2:23:26
+Ligation error   5% (21889105 of 437782080) || Elapsed Time: 0:07:29 ETA:   2:18:08
+Ligation error   6% (26266925 of 437782080) || Elapsed Time: 0:08:52 ETA:   2:11:26
+Ligation error   7% (30644746 of 437782080) || Elapsed Time: 0:10:19 ETA:   2:14:47
+Ligation error   8% (35022567 of 437782080) || Elapsed Time: 0:11:51 ETA:   2:20:51
+Ligation error   9% (39400388 of 437782080) || Elapsed Time: 0:13:18 ETA:   2:10:46
+Ligation error  10% (43778208 of 437782080) || Elapsed Time: 0:14:44 ETA:   2:10:21
+Ligation error  11% (48156029 of 437782080) || Elapsed Time: 0:16:07 ETA:   2:01:51
+Ligation error  12% (52533850 of 437782080) || Elapsed Time: 0:17:41 ETA:   2:17:57
+Ligation error  13% (56911671 of 437782080) || Elapsed Time: 0:19:01 ETA:   1:56:19
+Ligation error  14% (61289492 of 437782080) || Elapsed Time: 0:20:27 ETA:   2:03:49
+Ligation error  15% (65667312 of 437782080) || Elapsed Time: 0:21:50 ETA:   1:57:51
+Ligation error  16% (70045133 of 437782080) || Elapsed Time: 0:23:24 ETA:   2:10:18
+Ligation error  17% (74422954 of 437782080) || Elapsed Time: 0:24:51 ETA:   2:01:29
+Ligation error  18% (78800775 of 437782080) || Elapsed Time: 0:26:20 ETA:   2:01:09
+Ligation error  19% (83178596 of 437782080) || Elapsed Time: 0:27:48 ETA:   1:59:23
+Ligation error  20% (87556416 of 437782080) || Elapsed Time: 0:29:13 ETA:   1:52:31
+Ligation error  21% (91934237 of 437782080) || Elapsed Time: 0:30:40 ETA:   1:54:30
+Ligation error  22% (96312058 of 437782080) || Elapsed Time: 0:32:06 ETA:   1:52:22
+Ligation error  23% (100689879 of 437782080) || Elapsed Time: 0:33:36 ETA:   1:54:49
+Ligation error  24% (105067700 of 437782080) || Elapsed Time: 0:35:09 ETA:   1:58:41
+Ligation error  25% (109445520 of 437782080) || Elapsed Time: 0:36:34 ETA:   1:45:41
+Ligation error  26% (113823341 of 437782080) || Elapsed Time: 0:38:00 ETA:   1:46:09
+Ligation error  27% (118201162 of 437782080) || Elapsed Time: 0:39:29 ETA:   1:48:13
+Ligation error  28% (122578983 of 437782080) || Elapsed Time: 0:40:54 ETA:   1:41:42
+Ligation error  29% (126956804 of 437782080) || Elapsed Time: 0:42:20 ETA:   1:42:22
+Ligation error  30% (131334624 of 437782080) || Elapsed Time: 0:43:55 ETA:   1:49:57
+Ligation error  31% (135712445 of 437782080) || Elapsed Time: 0:45:20 ETA:   1:37:53
+Ligation error  32% (140090266 of 437782080) || Elapsed Time: 0:46:50 ETA:   1:42:21
+Ligation error  33% (144468087 of 437782080) || Elapsed Time: 0:48:21 ETA:   1:41:28
+Ligation error  34% (148845908 of 437782080) || Elapsed Time: 0:49:49 ETA:   1:36:34
+Ligation error  35% (153223729 of 437782080) || Elapsed Time: 0:51:22 ETA:   1:41:05
+Ligation error  36% (157601549 of 437782080) || Elapsed Time: 0:52:45 ETA:   1:28:57
+Ligation error  37% (161979370 of 437782080) || Elapsed Time: 0:54:12 ETA:   1:31:15
+Ligation error  38% (166357191 of 437782080) || Elapsed Time: 0:55:42 ETA:   1:32:48
+Ligation error  39% (170735012 of 437782080) || Elapsed Time: 0:57:16 ETA:   1:34:58
+Ligation error  40% (175112836 of 437782080) || Elapsed Time: 0:58:41 ETA:   1:25:13
+Ligation error  41% (179490653 of 437782080) || Elapsed Time: 1:00:04 ETA:   1:21:51
+Ligation error  42% (183868474 of 437782080) || Elapsed Time: 1:01:32 ETA:   1:25:01
+Ligation error  43% (188246295 of 437782080) || Elapsed Time: 1:03:04 ETA:   1:27:05
+Ligation error  44% (192624116 of 437782080) || Elapsed Time: 1:04:29 ETA:   1:19:39
+Ligation error  45% (197001937 of 437782080) || Elapsed Time: 1:05:58 ETA:   1:21:11
+Ligation error  46% (201379757 of 437782080) || Elapsed Time: 1:07:25 ETA:   1:18:59
+Ligation error  47% (205757578 of 437782080) || Elapsed Time: 1:08:58 ETA:   1:22:02
+Ligation error  48% (210135400 of 437782080) || Elapsed Time: 1:10:19 ETA:   1:09:46
+Ligation error  49% (214513220 of 437782080) || Elapsed Time: 1:11:53 ETA:   1:19:49
+Ligation error  50% (218891041 of 437782080) || Elapsed Time: 1:13:14 ETA:   1:08:05
+Ligation error  51% (223268861 of 437782080) || Elapsed Time: 1:14:46 ETA:   1:14:46
+Ligation error  52% (227646682 of 437782080) || Elapsed Time: 1:16:15 ETA:   1:11:36
+Ligation error  53% (232024503 of 437782080) || Elapsed Time: 1:17:49 ETA:   1:13:03
+Ligation error  54% (236402324 of 437782080) || Elapsed Time: 1:19:23 ETA:   1:12:38
+Ligation error  55% (240780146 of 437782080) || Elapsed Time: 1:21:00 ETA:   1:12:15
+Ligation error  56% (245157965 of 437782080) || Elapsed Time: 1:22:31 ETA:   1:07:08
+Ligation error  57% (249535786 of 437782080) || Elapsed Time: 1:24:03 ETA:   1:05:44
+Ligation error  58% (253913607 of 437782080) || Elapsed Time: 1:25:30 ETA:   1:00:42
+Ligation error  59% (258291428 of 437782080) || Elapsed Time: 1:27:03 ETA:   1:03:54
+Ligation error  60% (262669249 of 437782080) || Elapsed Time: 1:28:25 ETA:   0:54:46
+Ligation error  61% (267047069 of 437782080) || Elapsed Time: 1:29:57 ETA:   0:59:15
+Ligation error  62% (271424890 of 437782080) || Elapsed Time: 1:31:20 ETA:   0:52:43
+Ligation error  63% (275802711 of 437782080) || Elapsed Time: 1:32:46 ETA:   0:53:25
+Ligation error  64% (280180532 of 437782080) || Elapsed Time: 1:34:17 ETA:   0:54:15
+Ligation error  65% (284558353 of 437782080) || Elapsed Time: 1:35:44 ETA:   0:50:50
+Ligation error  66% (288936173 of 437782080) || Elapsed Time: 1:37:11 ETA:   0:49:27
+Ligation error  67% (293313994 of 437782080) || Elapsed Time: 1:38:39 ETA:   0:48:21
+Ligation error  68% (297691815 of 437782080) || Elapsed Time: 1:40:13 ETA:   0:50:11
+Ligation error  69% (302069636 of 437782080) || Elapsed Time: 1:41:41 ETA:   0:45:28
+Ligation error  70% (306447457 of 437782080) || Elapsed Time: 1:43:08 ETA:   0:43:11
+Ligation error  71% (310825277 of 437782080) || Elapsed Time: 1:44:39 ETA:   0:44:03
+Ligation error  72% (315203098 of 437782080) || Elapsed Time: 1:46:10 ETA:   0:42:26
+Ligation error  73% (319580919 of 437782080) || Elapsed Time: 1:47:41 ETA:   0:40:57
+Ligation error  74% (323958740 of 437782080) || Elapsed Time: 1:49:13 ETA:   0:39:57
+Ligation error  75% (328336561 of 437782080) || Elapsed Time: 1:50:40 ETA:   0:36:13
+Ligation error  76% (332714381 of 437782080) || Elapsed Time: 1:52:14 ETA:   0:37:35
+Ligation error  77% (337092202 of 437782080) || Elapsed Time: 1:53:40 ETA:   0:32:51
+Ligation error  78% (341470023 of 437782080) || Elapsed Time: 1:55:09 ETA:   0:32:50
+Ligation error  79% (345847844 of 437782080) || Elapsed Time: 1:56:43 ETA:   0:32:48
+Ligation error  80% (350225665 of 437782080) || Elapsed Time: 1:58:13 ETA:   0:29:55
+Ligation error  81% (354603485 of 437782080) || Elapsed Time: 1:59:47 ETA:   0:29:55
+Ligation error  82% (358981306 of 437782080) || Elapsed Time: 2:01:19 ETA:   0:27:27
+Ligation error  83% (363359127 of 437782080) || Elapsed Time: 2:02:52 ETA:   0:26:28
+Ligation error  84% (367736948 of 437782080) || Elapsed Time: 2:04:21 ETA:   0:23:34
+Ligation error  85% (372114769 of 437782080) || Elapsed Time: 2:05:50 ETA:   0:22:23
+Ligation error  86% (376492589 of 437782080) || Elapsed Time: 2:07:20 ETA:   0:20:54
+Ligation error  87% (380870410 of 437782080) || Elapsed Time: 2:08:50 ETA:   0:19:28
+Ligation error  88% (385248231 of 437782080) || Elapsed Time: 2:10:19 ETA:   0:17:46
+Ligation error  89% (389626052 of 437782080) || Elapsed Time: 2:11:52 ETA:   0:17:08
+Ligation error  90% (394003873 of 437782080) || Elapsed Time: 2:13:25 ETA:   0:15:25
+Ligation error  91% (398381693 of 437782080) || Elapsed Time: 2:14:56 ETA:   0:13:41
+Ligation error  92% (402759514 of 437782080) || Elapsed Time: 2:16:27 ETA:   0:12:04
+Ligation error  93% (407137335 of 437782080) || Elapsed Time: 2:17:59 ETA:   0:10:49
+Ligation error  94% (411515156 of 437782080) || Elapsed Time: 2:19:35 ETA:   0:09:32
+Ligation error  95% (415892977 of 437782080) || Elapsed Time: 2:21:08 ETA:   0:07:43
+Ligation error  96% (420270797 of 437782080) || Elapsed Time: 2:22:39 ETA:   0:06:04
+Ligation error  97% (424648618 of 437782080) || Elapsed Time: 2:24:11 ETA:   0:04:36
+Ligation error  98% (429026439 of 437782080) || Elapsed Time: 2:25:45 ETA:   0:03:08
+Ligation error  99% (433404260 of 437782080) || Elapsed Time: 2:27:19 ETA:   0:01:34
+Ligation error  99% (437782077 of 437782080) || Elapsed Time: 2:28:51 Time:  2:28:51
+2023-12-31 22:11:57,390 INFO Pairs: 437782080
+2023-12-31 22:11:57,392 INFO Inter-chromosomal: 55491267
+2023-12-31 22:11:57,393 INFO Same fragment: 30444199
+2023-12-31 22:11:57,395 INFO Same: 157808596
+2023-12-31 22:11:57,396 INFO Inward: 85217195
+2023-12-31 22:11:57,398 INFO Outward: 77504049
+2023-12-31 22:39:17,337 INFO Filtering out outward facing read pairs < 54116 bp apart
+2023-12-31 22:39:17,340 INFO Filtering self-ligated read pairs
+2023-12-31 22:39:17,344 INFO Filtering PCR duplicates, threshold <= 2bp
+2023-12-31 22:59:38,476 INFO PCR duplicate stats: 10998649 (2.5%) of pairs marked as duplicate.  (multiplicity:occurances) 2:10450340 3:249029 4:10877 6:300 5:1330 7:105 9:53 8:51 25:10 22:6 30:11 17:12 11:39 18:10 19:17 10:36 13:22 16:6 71:1 50:1 35:5 63:2 12:33 23:9 14:17 43:5 21:3 24:6 28:6 55:1 39:3 26:4 40:1 56:2 60:2 20:7 66:1 46:2 76:2 31:2 33:3 81:1 42:2 78:1 27:6 15:8 79:1 52:4 34:3 61:1 32:4 37:2 29:3 44:1 54:3 62:1 77:1 83:2 67:2 38:2 65:1 36:1 47:1 58:2 117:1 102:1 97:1 53:1 128:1 132:1 92:1 95:1 51:1 109:1 124:1 103:1 199:1 108:1 41:1
+2023-12-31 22:59:38,478 INFO Running filters...
+Filter   0% (0 of 5151) |                | Elapsed Time: 0:00:00 ETA:  --:--:--
+Filter   0% (1 of 5151) |                | Elapsed Time: 0:00:04 ETA:   7:00:42
+Filter   1% (52 of 5151) |               | Elapsed Time: 0:00:20 ETA:   0:25:21
+Filter   2% (104 of 5151) |              | Elapsed Time: 0:02:11 ETA:   2:59:25
+Filter   3% (155 of 5151) |              | Elapsed Time: 0:02:25 ETA:   0:24:22
+Filter   4% (207 of 5151) |              | Elapsed Time: 0:04:39 ETA:   3:32:11
+Filter   5% (258 of 5151) |              | Elapsed Time: 0:04:52 ETA:   0:20:56
+Filter   6% (310 of 5151) |              | Elapsed Time: 0:07:07 ETA:   3:28:15
+Filter   7% (361 of 5151) |              | Elapsed Time: 0:07:20 ETA:   0:20:08
+Filter   8% (413 of 5151) |#             | Elapsed Time: 0:08:48 ETA:   2:14:36
+Filter   9% (464 of 5151) |#             | Elapsed Time: 0:09:01 ETA:   0:20:16
+Filter  10% (516 of 5151) |#             | Elapsed Time: 0:10:57 ETA:   2:52:01
+Filter  11% (567 of 5151) |#             | Elapsed Time: 0:11:09 ETA:   0:18:10
+Filter  12% (619 of 5151) |#             | Elapsed Time: 0:12:59 ETA:   2:39:50
+Filter  13% (670 of 5151) |#             | Elapsed Time: 0:13:13 ETA:   0:19:35
+Filter  14% (722 of 5151) |#             | Elapsed Time: 0:14:49 ETA:   2:16:02
+Filter  15% (773 of 5151) |##            | Elapsed Time: 0:15:01 ETA:   0:18:24
+Filter  16% (825 of 5151) |##            | Elapsed Time: 0:17:22 ETA:   3:15:12
+Filter  17% (876 of 5151) |##            | Elapsed Time: 0:19:52 ETA:   3:29:01
+Filter  18% (928 of 5151) |##            | Elapsed Time: 0:20:08 ETA:   0:21:49
+Filter  19% (979 of 5151) |##            | Elapsed Time: 0:22:24 ETA:   3:04:50
+Filter  20% (1031 of 5151) |##           | Elapsed Time: 0:22:38 ETA:   0:18:36
+Filter  21% (1082 of 5151) |##           | Elapsed Time: 0:24:40 ETA:   2:43:14
+Filter  22% (1134 of 5151) |##           | Elapsed Time: 0:24:56 ETA:   0:20:38
+Filter  23% (1185 of 5151) |##           | Elapsed Time: 0:26:45 ETA:   2:20:50
+Filter  24% (1237 of 5151) |###          | Elapsed Time: 0:28:40 ETA:   2:23:46
+Filter  25% (1288 of 5151) |###          | Elapsed Time: 0:28:50 ETA:   0:13:01
+Filter  26% (1340 of 5151) |###          | Elapsed Time: 0:30:42 ETA:   2:17:13
+Filter  27% (1391 of 5151) |###          | Elapsed Time: 0:30:53 ETA:   0:12:31
+Filter  28% (1443 of 5151) |###          | Elapsed Time: 0:32:34 ETA:   2:00:11
+Filter  29% (1494 of 5151) |###          | Elapsed Time: 0:32:47 ETA:   0:16:19
+Filter  30% (1546 of 5151) |###          | Elapsed Time: 0:34:45 ETA:   2:16:18
+Filter  31% (1597 of 5151) |####         | Elapsed Time: 0:36:18 ETA:   1:47:32
+Filter  32% (1649 of 5151) |####         | Elapsed Time: 0:36:32 ETA:   0:15:56
+Filter  33% (1700 of 5151) |####         | Elapsed Time: 0:38:00 ETA:   1:39:12
+Filter  34% (1752 of 5151) |####         | Elapsed Time: 0:40:27 ETA:   2:39:35
+Filter  35% (1803 of 5151) |####         | Elapsed Time: 0:40:42 ETA:   0:16:35
+Filter  36% (1855 of 5151) |####         | Elapsed Time: 0:42:42 ETA:   2:06:46
+Filter  37% (1906 of 5151) |####         | Elapsed Time: 0:42:56 ETA:   0:14:44
+Filter  38% (1958 of 5151) |####         | Elapsed Time: 0:44:50 ETA:   1:57:16
+Filter  39% (2009 of 5151) |#####        | Elapsed Time: 0:46:29 ETA:   1:41:08
+Filter  40% (2061 of 5151) |#####        | Elapsed Time: 0:46:45 ETA:   0:16:07
+Filter  41% (2112 of 5151) |#####        | Elapsed Time: 0:48:43 ETA:   1:57:14
+Filter  42% (2164 of 5151) |#####        | Elapsed Time: 0:51:00 ETA:   2:11:18
+Filter  43% (2215 of 5151) |#####        | Elapsed Time: 0:51:16 ETA:   0:14:46
+Filter  44% (2267 of 5151) |#####        | Elapsed Time: 0:52:44 ETA:   1:21:25
+Filter  45% (2318 of 5151) |#####        | Elapsed Time: 0:53:58 ETA:   1:08:54
+Filter  46% (2370 of 5151) |#####        | Elapsed Time: 0:54:06 ETA:   0:06:55
+Filter  47% (2421 of 5151) |######       | Elapsed Time: 0:55:19 ETA:   1:05:23
+Filter  48% (2473 of 5151) |######       | Elapsed Time: 0:57:04 ETA:   1:29:37
+Filter  49% (2524 of 5151) |######       | Elapsed Time: 0:59:20 ETA:   1:56:37
+Filter  50% (2576 of 5151) |######       | Elapsed Time: 0:59:39 ETA:   0:15:48
+Filter  51% (2628 of 5151) |######       | Elapsed Time: 1:01:43 ETA:   1:40:47
+Filter  52% (2679 of 5151) |######       | Elapsed Time: 1:03:41 ETA:   1:34:47
+Filter  53% (2731 of 5151) |######       | Elapsed Time: 1:03:53 ETA:   0:09:18
+Filter  54% (2782 of 5151) |#######      | Elapsed Time: 1:06:06 ETA:   1:43:23
+Filter  55% (2834 of 5151) |#######      | Elapsed Time: 1:08:19 ETA:   1:38:21
+Filter  56% (2885 of 5151) |#######      | Elapsed Time: 1:09:42 ETA:   1:01:55
+Filter  57% (2937 of 5151) |#######      | Elapsed Time: 1:09:56 ETA:   0:10:02
+Filter  58% (2988 of 5151) |#######      | Elapsed Time: 1:11:03 ETA:   0:46:51
+Filter  59% (3040 of 5151) |#######      | Elapsed Time: 1:13:07 ETA:   1:23:49
+Filter  60% (3091 of 5151) |#######      | Elapsed Time: 1:14:25 ETA:   0:52:36
+Filter  61% (3143 of 5151) |#######      | Elapsed Time: 1:16:00 ETA:   1:01:26
+Filter  62% (3194 of 5151) |########     | Elapsed Time: 1:16:11 ETA:   0:06:59
+Filter  63% (3246 of 5151) |########     | Elapsed Time: 1:17:53 ETA:   1:02:10
+Filter  64% (3297 of 5151) |########     | Elapsed Time: 1:21:13 ETA:   2:01:05
+Filter  65% (3349 of 5151) |########     | Elapsed Time: 1:24:07 ETA:   1:40:42
+Filter  66% (3400 of 5151) |########     | Elapsed Time: 1:25:28 ETA:   0:46:27
+Filter  67% (3452 of 5151) |########     | Elapsed Time: 1:27:06 ETA:   0:52:59
+Filter  68% (3503 of 5151) |########     | Elapsed Time: 1:28:17 ETA:   0:38:23
+Filter  69% (3555 of 5151) |########     | Elapsed Time: 1:28:51 ETA:   0:17:19
+Filter  70% (3606 of 5151) |#########    | Elapsed Time: 1:29:00 ETA:   0:04:22
+Filter  71% (3658 of 5151) |#########    | Elapsed Time: 1:29:46 ETA:   0:22:12
+Filter  72% (3709 of 5151) |#########    | Elapsed Time: 1:30:42 ETA:   0:26:26
+Filter  73% (3761 of 5151) |#########    | Elapsed Time: 1:31:35 ETA:   0:23:28
+Filter  74% (3812 of 5151) |#########    | Elapsed Time: 1:32:08 ETA:   0:14:39
+Filter  75% (3864 of 5151) |#########    | Elapsed Time: 1:32:52 ETA:   0:17:58
+Filter  76% (3915 of 5151) |#########    | Elapsed Time: 1:34:12 ETA:   0:32:15
+Filter  77% (3967 of 5151) |##########   | Elapsed Time: 1:36:01 ETA:   0:41:19
+Filter  78% (4018 of 5151) |##########   | Elapsed Time: 1:38:22 ETA:   0:52:23
+Filter  79% (4070 of 5151) |##########   | Elapsed Time: 1:43:47 ETA:   1:52:23
+Filter  80% (4121 of 5151) |##########   | Elapsed Time: 1:45:35 ETA:   0:36:35
+Filter  81% (4173 of 5151) |##########   | Elapsed Time: 1:47:07 ETA:   0:28:51
+Filter  82% (4224 of 5151) |##########   | Elapsed Time: 1:48:28 ETA:   0:24:26
+Filter  83% (4276 of 5151) |##########   | Elapsed Time: 1:49:45 ETA:   0:21:28
+Filter  84% (4327 of 5151) |##########   | Elapsed Time: 1:51:37 ETA:   0:30:19
+Filter  85% (4379 of 5151) |###########  | Elapsed Time: 1:56:02 ETA:   1:05:37
+Filter  86% (4430 of 5151) |###########  | Elapsed Time: 1:58:26 ETA:   0:33:53
+Filter  87% (4482 of 5151) |###########  | Elapsed Time: 2:00:15 ETA:   0:23:14
+Filter  88% (4533 of 5151) |###########  | Elapsed Time: 2:03:33 ETA:   0:40:04
+Filter  89% (4585 of 5151) |###########  | Elapsed Time: 2:05:27 ETA:   0:20:43
+Filter  90% (4636 of 5151) |###########  | Elapsed Time: 2:10:21 ETA:   0:49:24
+Filter  91% (4688 of 5151) |###########  | Elapsed Time: 2:13:18 ETA:   0:26:20
+Filter  92% (4739 of 5151) |###########  | Elapsed Time: 2:14:38 ETA:   0:10:46
+Filter  93% (4791 of 5151) |############ | Elapsed Time: 2:16:56 ETA:   0:15:50
+Filter  94% (4842 of 5151) |############ | Elapsed Time: 2:19:27 ETA:   0:15:19
+Filter  95% (4894 of 5151) |############ | Elapsed Time: 2:24:45 ETA:   0:26:07
+Filter  96% (4945 of 5151) |############ | Elapsed Time: 2:28:34 ETA:   0:15:28
+Filter  97% (4997 of 5151) |############ | Elapsed Time: 2:30:28 ETA:   0:05:37
+Filter  98% (5048 of 5151) |############ | Elapsed Time: 2:35:43 ETA:   0:10:35
+Filter  99% (5100 of 5151) |############ | Elapsed Time: 2:42:28 ETA:   0:06:37
+Filter 100% (5151 of 5151) |#############| Elapsed Time: 2:50:07 Time:  2:50:07
+2024-01-01 01:52:52,562 INFO Total: 437782080. Valid: 298256088
+2024-01-01 01:52:52,564 INFO Updating region mappability
+Mappability   0% (0 of 298256088) |      | Elapsed Time: 0:00:00 ETA:  --:--:--
+Mappability   0% (1 of 298256088) |      | Elapsed Time: 0:00:00 ETA:  00:00:00
+Mappability   1% (2982561 of 298256088) || Elapsed Time: 0:00:13 ETA:   0:22:24
+Mappability   2% (5965122 of 298256088) || Elapsed Time: 0:00:24 ETA:   0:17:47
+Mappability   3% (8947683 of 298256088) || Elapsed Time: 0:00:34 ETA:   0:16:03
+Mappability   4% (11930244 of 298256088) || Elapsed Time: 0:00:46 ETA:   0:19:31
+Mappability   5% (14912805 of 298256088) || Elapsed Time: 0:00:58 ETA:   0:19:34
+Mappability   6% (17895366 of 298256088) || Elapsed Time: 0:01:11 ETA:   0:18:59
+Mappability   7% (20877927 of 298256088) || Elapsed Time: 0:01:20 ETA:   0:14:08
+Mappability   8% (23860488 of 298256088) || Elapsed Time: 0:01:32 ETA:   0:18:20
+Mappability   9% (26843048 of 298256088) || Elapsed Time: 0:01:44 ETA:   0:18:18
+Mappability  10% (29825609 of 298256088) || Elapsed Time: 0:01:56 ETA:   0:18:18
+Mappability  11% (32808170 of 298256088) || Elapsed Time: 0:02:07 ETA:   0:15:52
+Mappability  12% (35790731 of 298256088) || Elapsed Time: 0:02:17 ETA:   0:14:33
+Mappability  13% (38773292 of 298256088) || Elapsed Time: 0:02:28 ETA:   0:17:02
+Mappability  14% (41755853 of 298256088) || Elapsed Time: 0:02:38 ETA:   0:13:40
+Mappability  15% (44738414 of 298256088) || Elapsed Time: 0:02:49 ETA:   0:15:38
+Mappability  16% (47720975 of 298256088) || Elapsed Time: 0:03:01 ETA:   0:16:25
+Mappability  17% (50703535 of 298256088) || Elapsed Time: 0:03:12 ETA:   0:15:36
+Mappability  18% (53686096 of 298256088) || Elapsed Time: 0:03:23 ETA:   0:14:26
+Mappability  19% (56668657 of 298256088) || Elapsed Time: 0:03:32 ETA:   0:12:31
+Mappability  20% (59651218 of 298256088) || Elapsed Time: 0:03:43 ETA:   0:15:23
+Mappability  21% (62633779 of 298256088) || Elapsed Time: 0:03:55 ETA:   0:15:00
+Mappability  22% (65616340 of 298256088) || Elapsed Time: 0:04:06 ETA:   0:14:31
+Mappability  23% (68598901 of 298256088) || Elapsed Time: 0:04:17 ETA:   0:14:17
+Mappability  24% (71581462 of 298256088) || Elapsed Time: 0:04:28 ETA:   0:14:04
+Mappability  25% (74564023 of 298256088) || Elapsed Time: 0:04:37 ETA:   0:11:08
+Mappability  26% (77546583 of 298256088) || Elapsed Time: 0:04:48 ETA:   0:13:31
+Mappability  27% (80529144 of 298256088) || Elapsed Time: 0:04:59 ETA:   0:13:30
+Mappability  28% (83511705 of 298256088) || Elapsed Time: 0:05:10 ETA:   0:13:24
+Mappability  29% (86494266 of 298256088) || Elapsed Time: 0:05:21 ETA:   0:13:07
+Mappability  30% (89476827 of 298256088) || Elapsed Time: 0:05:31 ETA:   0:11:38
+Mappability  31% (92459388 of 298256088) || Elapsed Time: 0:05:41 ETA:   0:11:03
+Mappability  32% (95441949 of 298256088) || Elapsed Time: 0:05:52 ETA:   0:12:26
+Mappability  33% (98424510 of 298256088) || Elapsed Time: 0:06:03 ETA:   0:12:07
+Mappability  34% (101407070 of 298256088) || Elapsed Time: 0:06:14 ETA:   0:12:01
+Mappability  35% (104389631 of 298256088) || Elapsed Time: 0:06:25 ETA:   0:11:44
+Mappability  36% (107372192 of 298256088) || Elapsed Time: 0:06:36 ETA:   0:11:42
+Mappability  37% (110354753 of 298256088) || Elapsed Time: 0:06:46 ETA:   0:11:14
+Mappability  38% (113337314 of 298256088) || Elapsed Time: 0:06:56 ETA:   0:10:24
+Mappability  39% (116319875 of 298256088) || Elapsed Time: 0:07:06 ETA:   0:09:33
+Mappability  40% (119302436 of 298256088) || Elapsed Time: 0:07:16 ETA:   0:10:38
+Mappability  41% (122284997 of 298256088) || Elapsed Time: 0:07:27 ETA:   0:10:30
+Mappability  42% (125267557 of 298256088) || Elapsed Time: 0:07:37 ETA:   0:10:02
+Mappability  43% (128250118 of 298256088) || Elapsed Time: 0:07:49 ETA:   0:10:39
+Mappability  44% (131232679 of 298256088) || Elapsed Time: 0:07:59 ETA:   0:10:01
+Mappability  45% (134215240 of 298256088) || Elapsed Time: 0:08:10 ETA:   0:09:46
+Mappability  46% (137197801 of 298256088) || Elapsed Time: 0:08:21 ETA:   0:09:28
+Mappability  47% (140180362 of 298256088) || Elapsed Time: 0:08:31 ETA:   0:09:20
+Mappability  48% (143162923 of 298256088) || Elapsed Time: 0:08:42 ETA:   0:09:13
+Mappability  49% (146145484 of 298256088) || Elapsed Time: 0:08:51 ETA:   0:07:25
+Mappability  50% (149128044 of 298256088) || Elapsed Time: 0:09:01 ETA:   0:08:29
+Mappability  51% (152110605 of 298256088) || Elapsed Time: 0:09:10 ETA:   0:07:29
+Mappability  52% (155093166 of 298256088) || Elapsed Time: 0:09:21 ETA:   0:08:46
+Mappability  53% (158075727 of 298256088) || Elapsed Time: 0:09:32 ETA:   0:08:35
+Mappability  54% (161058288 of 298256088) || Elapsed Time: 0:09:43 ETA:   0:08:45
+Mappability  55% (164040849 of 298256088) || Elapsed Time: 0:09:56 ETA:   0:09:24
+Mappability  56% (167023410 of 298256088) || Elapsed Time: 0:10:08 ETA:   0:09:12
+Mappability  57% (170005971 of 298256088) || Elapsed Time: 0:10:19 ETA:   0:07:41
+Mappability  58% (172988532 of 298256088) || Elapsed Time: 0:10:29 ETA:   0:06:47
+Mappability  59% (175971092 of 298256088) || Elapsed Time: 0:10:39 ETA:   0:06:58
+Mappability  60% (178953653 of 298256088) || Elapsed Time: 0:10:49 ETA:   0:06:39
+Mappability  61% (181936214 of 298256088) || Elapsed Time: 0:10:58 ETA:   0:05:32
+Mappability  62% (184918775 of 298256088) || Elapsed Time: 0:11:08 ETA:   0:06:18
+Mappability  63% (187901336 of 298256088) || Elapsed Time: 0:11:18 ETA:   0:06:11
+Mappability  64% (190883897 of 298256088) || Elapsed Time: 0:11:28 ETA:   0:06:01
+Mappability  65% (193866458 of 298256088) || Elapsed Time: 0:11:38 ETA:   0:05:48
+Mappability  66% (196849019 of 298256088) || Elapsed Time: 0:11:48 ETA:   0:05:44
+Mappability  67% (199831579 of 298256088) || Elapsed Time: 0:11:58 ETA:   0:05:30
+Mappability  68% (202814140 of 298256088) || Elapsed Time: 0:12:08 ETA:   0:05:18
+Mappability  69% (205796701 of 298256088) || Elapsed Time: 0:12:18 ETA:   0:05:06
+Mappability  70% (208779262 of 298256088) || Elapsed Time: 0:12:27 ETA:   0:04:54
+Mappability  71% (211761823 of 298256088) || Elapsed Time: 0:12:36 ETA:   0:04:20
+Mappability  72% (214744384 of 298256088) || Elapsed Time: 0:12:46 ETA:   0:04:41
+Mappability  73% (217726945 of 298256088) || Elapsed Time: 0:12:56 ETA:   0:04:20
+Mappability  74% (220709506 of 298256088) || Elapsed Time: 0:13:06 ETA:   0:04:19
+Mappability  75% (223692066 of 298256088) || Elapsed Time: 0:13:16 ETA:   0:04:01
+Mappability  76% (226674627 of 298256088) || Elapsed Time: 0:13:26 ETA:   0:03:59
+Mappability  77% (229657188 of 298256088) || Elapsed Time: 0:13:35 ETA:   0:03:42
+Mappability  78% (232639749 of 298256088) || Elapsed Time: 0:13:44 ETA:   0:03:20
+Mappability  79% (235622310 of 298256088) || Elapsed Time: 0:13:54 ETA:   0:03:24
+Mappability  80% (238604871 of 298256088) || Elapsed Time: 0:14:04 ETA:   0:03:18
+Mappability  81% (241587432 of 298256088) || Elapsed Time: 0:14:14 ETA:   0:03:06
+Mappability  82% (244569993 of 298256088) || Elapsed Time: 0:14:24 ETA:   0:03:02
+Mappability  83% (247552554 of 298256088) || Elapsed Time: 0:14:34 ETA:   0:02:41
+Mappability  84% (250535114 of 298256088) || Elapsed Time: 0:14:43 ETA:   0:02:32
+Mappability  85% (253517675 of 298256088) || Elapsed Time: 0:14:52 ETA:   0:02:20
+Mappability  86% (256500236 of 298256088) || Elapsed Time: 0:15:01 ETA:   0:02:02
+Mappability  87% (259482797 of 298256088) || Elapsed Time: 0:15:11 ETA:   0:02:13
+Mappability  88% (262465358 of 298256088) || Elapsed Time: 0:15:21 ETA:   0:01:54
+Mappability  89% (265447919 of 298256088) || Elapsed Time: 0:15:31 ETA:   0:01:50
+Mappability  90% (268430480 of 298256088) || Elapsed Time: 0:15:41 ETA:   0:01:37
+Mappability  91% (271413041 of 298256088) || Elapsed Time: 0:15:50 ETA:   0:01:25
+Mappability  92% (274395601 of 298256088) || Elapsed Time: 0:15:59 ETA:   0:01:13
+Mappability  93% (277378162 of 298256088) || Elapsed Time: 0:16:09 ETA:   0:01:05
+Mappability  94% (280360723 of 298256088) || Elapsed Time: 0:16:18 ETA:   0:00:53
+Mappability  95% (283343284 of 298256088) || Elapsed Time: 0:16:27 ETA:   0:00:44
+Mappability  96% (286325845 of 298256088) || Elapsed Time: 0:16:36 ETA:   0:00:36
+Mappability  97% (289308406 of 298256088) || Elapsed Time: 0:16:46 ETA:   0:00:29
+Mappability  98% (292290967 of 298256088) || Elapsed Time: 0:16:55 ETA:   0:00:18
+Mappability  99% (295273528 of 298256088) || Elapsed Time: 0:17:04 ETA:   0:00:09
+Mappability 100% (298256088 of 298256088) || Elapsed Time: 0:17:13 Time:  0:17:13
+2024-01-01 02:14:32,922 INFO Done.
+2024-01-01 02:14:34,063 INFO All done.
+/home/pks14/mypython_3.9.5/lib/python3.9/site-packages/tables/file.py:113: UnclosedFileWarning: Closing remaining open file: HKU718
+  warnings.warn(UnclosedFileWarning(msg))
